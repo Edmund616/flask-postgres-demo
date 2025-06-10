@@ -26,6 +26,8 @@ def wait_for_db():
 def index():
     if not wait_for_db():
         return "Database connection failed", 500
+
+    return 'Hello, world!'  # ✅ This is the missing return
     # ... rest of your route code ...
 
 if __name__ == '__main__':
