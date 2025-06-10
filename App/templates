@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books List</title>
+</head>
+<body>
+    <h1>Books in Database</h1>
+    {% if books %}
+    <ul>
+        {% for book in books %}
+        <li>{{ book[1] }} by {{ book[2] }} (ID: {{ book[0] }})</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No books found or couldn't connect to database.</p>
+    {% endif %}
+</body>
+</html>
