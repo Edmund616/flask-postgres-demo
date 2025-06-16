@@ -43,3 +43,5 @@ INSERT INTO books (title, author) VALUES
 ('The Great Gatsby', 'F. Scott Fitzgerald'),
 ('1984', 'George Orwell');
 ```
+Everything done here is explained in details on my mediums account
+https://medium.com/@divyln20/containerize-a-web-app-using-docker-compose-5a8b40cc706d
